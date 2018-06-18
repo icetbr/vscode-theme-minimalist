@@ -1,0 +1,27 @@
+{
+    "name": "vscode-theme-minimalist",
+    "displayName": "minimalist",
+    "description": "Minimal changes for a minimal distraction interface",
+    "version": "1.0.0",
+    "publisher": "icetbr",
+    "license": "MIT",
+    "engines": {
+        "vscode": "^1.24.0"
+    },
+    "categories": [
+        "Themes"
+    ],
+    "contributes": {
+        "themes": [
+            {
+                "label": "Minimalist",
+                "uiTheme": "vs",
+                "path": "./themes/Minimalist-color-theme.json"
+            }
+        ]
+    },
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/icetbr/vscode-theme-minimalist"
+    }
+}
