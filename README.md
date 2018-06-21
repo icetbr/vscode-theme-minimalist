@@ -2,11 +2,11 @@
 
 Compared to Visual Studio Light
 
-Editor
+### Editor
 - Lighter black for **code** provides a more pleasant reading experience
 - same color for all occurrences when **selecting a word** because why the hell it isn't by default?
 
-Tokens
+### Tokens
 - Lighter grey **comments** for more unobtrusive coding
   - they are important, but not all the time
 - Green **strings** because they shouldn't be red
