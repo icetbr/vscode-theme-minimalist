@@ -1,6 +1,6 @@
 # README
 
-Compared to Visual Studi Light
+Compared to Visual Studio Light
 
 Editor
 - Lighter black for **code** provides a more pleasant reading experience
