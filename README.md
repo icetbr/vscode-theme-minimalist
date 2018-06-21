@@ -18,6 +18,14 @@ Tokens
 - **'this'** as orange because they are note part of your code and don't add as much as a main language construct
   - helps to know it's there, but easy to ignore
 
+## ScreenShot
+
+![ScreenShot](https://raw.githubusercontent.com/icetbr/vscode-theme-minimalist/master/static/sampleJs.png)
+
+![ScreenShot](https://raw.githubusercontent.com/icetbr/vscode-theme-minimalist/master/static/sampleMd.png)
+
+![ScreenShot](https://raw.githubusercontent.com/icetbr/vscode-theme-minimalist/master/static/sampleHtml.png)
+
 ## Misc: light vs dark
 
 While ultimatedly this is a matter of preference, if you wnat to bring science to the mix:
