@@ -20,10 +20,13 @@ Tokens
 
 ## ScreenShot
 
+### Javascript
 ![ScreenShot](https://raw.githubusercontent.com/icetbr/vscode-theme-minimalist/master/static/sampleJs.png)
 
+### HTML
 ![ScreenShot](https://raw.githubusercontent.com/icetbr/vscode-theme-minimalist/master/static/sampleMd.png)
 
+### Markdown
 ![ScreenShot](https://raw.githubusercontent.com/icetbr/vscode-theme-minimalist/master/static/sampleHtml.png)
 
 ## Misc: light vs dark
