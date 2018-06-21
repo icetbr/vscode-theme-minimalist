@@ -9,9 +9,9 @@ Based on Visual Studio Light with the following changes.
 ### Tokens
 - Lighter gray **comments** for more unobtrusive coding
   - they are important, but not all the time
-- Green **strings** because they shouldn't be red
-  - they're not code, so shouldn't be black
-- **Main language constructs** as a light red because they are the second most important thing in your code (second to the code itself)
+- Green **strings**, because they shouldn't be red
+  - they're not code, so shouldn't be black either
+- **Main language constructs** as a light red, because they are the second most important thing in your code (second to the code itself)
   - they serve to guide your reading (conditionals, async, etc)
 - **User defined/libs constructs** as blue for the same reason as above
   - allows for clearer code section definitions
