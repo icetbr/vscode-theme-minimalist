@@ -1,6 +1,6 @@
-# README
+A minimalist theme for VS Code. You can find it in the [marketplace](https://marketplace.visualstudio.com/items?itemName=icetbr.vscode-theme-minimalist).
 
-Compared to Visual Studio Light
+Based on Visual Studio Light with the following changes.
 
 ### Editor
 - Lighter black for **code** provides a more pleasant reading experience
