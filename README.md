@@ -7,7 +7,7 @@ Based on Visual Studio Light with the following changes.
 - same color for all occurrences when **selecting a word** because why the hell it isn't by default?
 
 ### Tokens
-- Lighter grey **comments** for more unobtrusive coding
+- Lighter gray **comments** for more unobtrusive coding
   - they are important, but not all the time
 - Green **strings** because they shouldn't be red
   - they're not code, so shouldn't be black
@@ -31,8 +31,8 @@ Based on Visual Studio Light with the following changes.
 
 ## Misc: light vs dark
 
-While ultimatedly this is a matter of preference, if you wnat to bring science to the mix:
-- studies have shown no differences between light/dark colors for eye confort
+While ultimately this is a matter of preference, if you want to bring science to the mix:
+- studies have shown no differences between light/dark colors for eye comfort
 - what DOES make a difference is context switching
-  - If you go from a dark background to a light background too fast (alt + tab google, for instance), your pupils will have to dilate to adapt to the new background, making your eyes tired faster
-- use f.lux or similar blue light filtering for better eye confort!
+  - If you go from a dark background to a light background too fast (`alt + tab Google`, for instance), your pupils will have to dilate to adapt to the new background, making your eyes tired faster
+- use f.lux or similar blue light filtering software
