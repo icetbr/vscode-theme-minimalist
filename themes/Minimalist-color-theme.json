@@ -1,12 +1,25 @@
 {
 	"name": "Minimalist",
 	"type": "light",
+	/*
+	 *  COLORS
+	 *
+	 *  light-black   #4d4d4c text
+	 *  light-blue    #C3DCFF selection
+	 *  light-gray    #C0C0C0 comments
+	 *  lighter-gray  #dfdfdf close to hidden, markdown pontuation
+	 *  green         #089C11 strings
+	 *  red           #c82829 keywords
+	 *  orange        #f5871f variables (this in JS)
+	 *  dark-blue     #3B5BB5 entities
+	 *  dark-blue2    #365f91 markdown headings (can't decide on a blue tone)
+	 */
 	"colors": {
 		"editor.foreground": "#4d4d4c",
 		"editorCursor.foreground": "#4d4d4c",
 		"editor.wordHighlightBackground": "#C3DCFF",
 		"list.activeSelectionBackground": "#C3DCFF",
-        	"list.activeSelectionForeground": "#4d4d4c",
+		"list.activeSelectionForeground": "#4d4d4c",
 	},
 	"tokenColors": [
 		{
@@ -24,38 +37,31 @@
 			}
 		},
 		{
-			"name": "Keyword",
-			"scope": "keyword, storage.type, entity.name.tag",
+			"name": "Main language constructs",
+			"scope": [
+				"keyword",
+				"storage.type",
+				"entity.name.tag"
+			],
 			"settings": {
 				"foreground": "#c82829"
 			}
 		},
 		{
-			"name": "Language",
+			"name": "Variable",
 			"scope": "variable.language",
 			"settings": {
 				"foreground": "#f5871f"
 			}
 		},
 		{
-			"name": "property",
-			"scope": "entity, meta.tag.inline.any.html, meta.tag.block.any.html",
-			"settings": {
-				"fontStyle": "",
-				"foreground": "#3B5BB5"
-			}
-		},
-		{
-			"name": "property html",
-			"scope": "entity.other.attribute-name.html, entity.other.attribute-name.id.html, meta.tag.inline.any.html, meta.tag.block.any.html, keyword.other.unit.css",
-			"settings": {
-				"fontStyle": "",
-				"foreground": "#4d4d4d"
-			}
-		},
-		{
-			"name": "key",
-			"scope": "constant.other.object.key",
+			"name": "User defined/libs constructs",
+			"scope": [
+				"entity",
+				"meta.tag.inline.any.html",
+				"meta.tag.block.any.html",
+				"constant.other.object.key"
+			],
 			"settings": {
 				"fontStyle": "",
 				"foreground": "#3B5BB5"
@@ -70,24 +76,84 @@
 			}
 		},
 		{
-			"scope": "punctuation.definition.bold.markdown, punctuation.definition.italic.markdown, meta.link.reference.def.markdown",
+			"name": "HTML attributes",
+			"scope": [
+				"entity.other.attribute-name.html",
+				"entity.other.attribute-name.id.html",
+				"meta.tag.inline.any.html",
+				"meta.tag.block.any.html",
+				"keyword.other.unit.css"
+			],
 			"settings": {
-				"foreground": "#dfdfdf"
+				"fontStyle": "",
+				"foreground": "#4d4d4c"
+			}
+		},
+
+		/*************************** MARKDOWN *****************************************/
+		{
+			"name": "Markdown syntax decoration",
+			"scope": [
+				"constant.other.reference.link.markdown",
+				"markup.underline.link.image.markdown",
+				"markup.underline.link.markdown",
+				"punctuation.definition.string.begin.markdown",
+				"punctuation.definition.string.end.markdown",
+				"punctuation.definition.constant.begin.markdown",
+				"punctuation.definition.constant.end.markdown",
+				"punctuation.definition.metadata.markdown",
+				"punctuation.definition.markdown",
+				"fenced_code.block.language.markdown"
+			],
+			"settings": {
+				"foreground": "#C0C0C0",
+				"fontStyle": ""
 			}
 		},
 		{
+			"name": "Markdown link decoration",
+			"scope": "string.other.link.description.markdown, string.other.link.title.markdown",
+			"settings": {
+				"foreground": "#3B5BB5",
+			}
+		},
+		{
+			"name": "Markdown headings",
 			"scope": "markup.heading.markdown, entity.name.section.markdown",
 			"settings": {
 				"foreground": "#365f91",
 				"fontStyle": "bold"
 			}
 		},
-  	        {
-		    "scope": "markup.inline.raw.string.markdown",
-		    "settings": {
-		        "foreground": "#089C11"
-		    }
-	        },		
+		{
+			"name": "Markdown h2 heading",
+			"scope": [
+				"heading.2.markdown punctuation.definition.heading.markdown",
+				"heading.2.markdown entity.name.section.markdown",
+				"heading.2.markdown string.other.link.title.markdown"
+			],
+			"settings": {
+				"foreground": "#c82829",
+			}
+		},
+		{
+			"name": "Markdown h4 heading",
+			"scope": [
+				"heading.4.markdown punctuation.definition.heading.markdown",
+				"heading.4.markdown entity.name.section.markdown",
+				"heading.4.markdown string.other.link.title.markdown"
+			],
+			"settings": {
+				"foreground": "#f5871f",
+			}
+		},
+		{
+			"name": "Markdown inline code",
+			"scope": "markup.inline.raw.string.markdown",
+			"settings": {
+				"foreground": "#089C11"
+			}
+		},
 		{
 			"scope": "markup.bold.markdown",
 			"settings": {

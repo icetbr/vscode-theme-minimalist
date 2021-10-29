@@ -1,8 +1,8 @@
 {
     "name": "vscode-theme-minimalist",
     "displayName": "minimalist",
-    "description": "Minimal changes for a minimal distraction interface",
-    "version": "1.1.1",
+    "description": "Minimal changes for a minimal and distraction interface",
+    "version": "1.2.0",
     "publisher": "icetbr",
     "license": "MIT",
     "engines": {

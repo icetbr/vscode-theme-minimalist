@@ -1,7 +1,10 @@
 # Change Log
-All notable changes to the "minimalist" extension will be documented in this file.
 
-Check [Keep a Changelog](http://keepachangelog.com/) for recommendations on how to structure this file.
+## [1.2.0] 2021-10-28
+- more infos on README
+- markdown color changes
+- the code organization
 
-## [Unreleased]
+
+## [1.0.0] 2018-06-17
 - Initial release
