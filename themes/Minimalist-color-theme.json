@@ -125,28 +125,28 @@
 				"fontStyle": "bold"
 			}
 		},
-		{
-			"name": "Markdown h2 heading",
-			"scope": [
-				"heading.2.markdown punctuation.definition.heading.markdown",
-				"heading.2.markdown entity.name.section.markdown",
-				"heading.2.markdown string.other.link.title.markdown"
-			],
-			"settings": {
-				"foreground": "#c82829",
-			}
-		},
-		{
-			"name": "Markdown h4 heading",
-			"scope": [
-				"heading.4.markdown punctuation.definition.heading.markdown",
-				"heading.4.markdown entity.name.section.markdown",
-				"heading.4.markdown string.other.link.title.markdown"
-			],
-			"settings": {
-				"foreground": "#f5871f",
-			}
-		},
+		// {
+		// 	"name": "Markdown h3 heading",
+		// 	"scope": [
+		// 		"heading.2.markdown punctuation.definition.heading.markdown",
+		// 		"heading.2.markdown entity.name.section.markdown",
+		// 		"heading.2.markdown string.other.link.title.markdown"
+		// 	],
+		// 	"settings": {
+		// 		"foreground": "#c82829",
+		// 	}
+		// },
+		// {
+		// 	"name": "Markdown h4 heading",
+		// 	"scope": [
+		// 		"heading.4.markdown punctuation.definition.heading.markdown",
+		// 		"heading.4.markdown entity.name.section.markdown",
+		// 		"heading.4.markdown string.other.link.title.markdown"
+		// 	],
+		// 	"settings": {
+		// 		"foreground": "#f5871f",
+		// 	}
+		// },
 		{
 			"name": "Markdown inline code",
 			"scope": "markup.inline.raw.string.markdown",
