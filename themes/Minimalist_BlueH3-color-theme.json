@@ -1,5 +1,5 @@
 {
-	"name": "Minimalist",
+	"name": "Minimalist (Blue H3)",
 	"type": "light",
 	/*
 	 *  COLORS
@@ -124,17 +124,6 @@
 			"settings": {
 				"foreground": "#365f91",
 				"fontStyle": "bold"
-			}
-		},
-		{
-			"name": "Markdown h3 heading",
-			"scope": [
-				"heading.2.markdown punctuation.definition.heading.markdown",
-				"heading.2.markdown entity.name.section.markdown",
-				"heading.2.markdown string.other.link.title.markdown"
-			],
-			"settings": {
-				"foreground": "#4D4D4C",
 			}
 		},
 		{

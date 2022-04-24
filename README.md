@@ -20,13 +20,16 @@ Based on Visual Studio Light with the following changes.
 - `this` as orange because they are note part of your code and don't add as much as a main language construct
   - helps to know it's there, but easy to ignore
 
+## Tokens (alternative Purple Object Keys)
+- I've been experimenting with this and it helps a lot with json files and my "object creating" heavy JS code
 
 ## Markdown
 - lighter syntax decoration, like the `**`from bold, **nearly** hiding them
 - decorate bold and italic as such
-- distinctive and pleasant heading colors: H2 red, H3 blue, H4 orange
-  - these suit me because of my colorful `.mds` with many code blocks, but I'm still thinking about them
+- distinctive and pleasant heading colors: bold navy blue for all but H3, which uses regular black
 
+## Markdown (alternative Blue H3)
+- makes H3 the same as the other headings
 
 ## Screenshots
 
@@ -38,6 +41,9 @@ Based on Visual Studio Light with the following changes.
 
 ### HTML
 ![ScreenShot](static/sampleHtml.png)
+
+### JSON (alternative Purple Keys variant)
+![JSON screenshot](static/sampleJson.png)
 
 
 ## Light vs Dark

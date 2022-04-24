@@ -1,5 +1,9 @@
 # Change Log
 
+## [1.3.0] 2022-04-24
+- making H3 markdown black as default
+- adding 2 alternative styles: Blue H3 and Purple Object Keys
+
 ## [1.2.1] 2021-10-31
 - reverting to blue headings, if you want colorful take a look at the customization session on the README
 

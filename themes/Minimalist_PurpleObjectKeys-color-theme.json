@@ -1,5 +1,5 @@
 {
-	"name": "Minimalist",
+	"name": "Minimalist (Purple Object Keys)",
 	"type": "light",
 	/*
 	 *  COLORS
@@ -74,6 +74,13 @@
 			"settings": {
 				"fontStyle": "bold",
 				"foreground": "#3B5BB5"
+			}
+		},
+		{
+			"name": "Object Key",
+			"scope": "meta.object-literal.key.js,string.json.comments",
+			"settings": {
+				"foreground": "#8250DF",
 			}
 		},
 		{
