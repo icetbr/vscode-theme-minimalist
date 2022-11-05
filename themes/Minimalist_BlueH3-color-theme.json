@@ -77,6 +77,34 @@
 			}
 		},
 		{
+			"name": "JsDocs annotations/punctuation",
+			"scope": "storage.type.class.jsdoc, entity.name.type.instance.jsdoc, punctuation.definition.bracket.curly.end.jsdoc",
+			"settings": {
+				"foreground": "#C0C0C0",
+			}
+		},
+		{
+			"name": "Export",
+			"scope": "keyword.control.export.js",
+			"settings": {
+				"fontStyle": "italic bold",
+			}
+		},
+		{
+			"name": "Function call",
+			"scope": "meta.function-call.js entity.name.function.js",
+			"settings": {
+				"foreground": "#3B5BB5", "fontStyle": ""
+			}
+		},
+		{
+			"name": "Bash punctuation",
+			"scope": "punctuation.definition.arguments.shell, punctuation.definition.group.shell",
+			"settings": {
+				"foreground": "#dfdfdf"
+			}
+		},
+		{
 			"name": "HTML attributes",
 			"scope": [
 				"entity.other.attribute-name.html",

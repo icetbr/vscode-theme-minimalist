@@ -1,0 +1,299 @@
+{
+    "editor.tabCompletion"                        : "on"  ,
+    "editor.wordBasedSuggestions"                 : false ,
+    "editor.snippetSuggestions"                   : "none",
+    "editor.quickSuggestions"                     : { "other": false, "comments": false, "strings": false },
+    "editor.suggest.showWords"                    : false,
+    "editor.lightbulb.enabled"                    : false,
+    "editor.renderLineHighlight"                  : "gutter",
+    "editor.mouseWheelZoom"                       : true,
+    "editor.fontFamily"                           : "'Consolas'",   // Source Sans Pro, Fira Code - fontLigatures, DejaVu Sans Mono
+    "editor.lineNumbers"                          : "off",
+    "editor.wordWrap"                             : "off",
+    "editor.formatOnPaste"                        : false,
+    "editor.minimap.enabled"                      : false,
+    "editor.dragAndDrop"                          : false,
+    "editor.hideCursorInOverviewRuler"            : true,
+    "editor.overviewRulerBorder"                  : false,
+    "editor.foldingHighlight"                     : false,
+    "editor.guides.indentation"                   : false,
+    "editor.bracketPairColorization.enabled"      : false,
+    "editor.gotoLocation.multipleDeclarations"    : "goto",
+    "editor.gotoLocation.multipleImplementations" : "goto",
+    "editor.gotoLocation.multipleDefinitions"     : "goto",
+    "editor.gotoLocation.multipleReferences"      : "goto",
+    "editor.gotoLocation.multipleTypeDefinitions" : "goto",
+
+    "explorer.openEditors.visible"                : 0,
+    "explorer.confirmDragAndDrop"                 : false,
+    "explorer.confirmDelete"                      : false,
+
+    "window.titleBarStyle"                        : "custom",
+    "window.title"                                : "${folderName}",
+    "window.restoreWindows": "all",
+    "window.newWindowDimensions"                  : "maximized",
+    "window.zoomLevel"                            : -1,
+
+    "workbench.colorTheme"                        : "Minimalist (Purple Object Keys)",
+    "workbench.editor.enablePreviewFromQuickOpen" : false,
+    "workbench.iconTheme"                         : null,
+    "workbench.editor.openPositioning"            : "last",
+    "workbench.settings.editor"                   : "json",
+    "workbench.tree.renderIndentGuides"           : "none",
+    "workbench.editor.decorations.badges"         : false,
+    "workbench.editor.decorations.colors"         : false,
+    "workbench.editor.wrapTabs"                   : true,
+    "workbench.layoutControl.enabled"             : false,
+    "workbench.activityBar.visible"               : false,
+
+    "debug.console.fontSize"                      : 13,
+    "debug.showInlineBreakpointCandidates"        : false,
+    "debug.allowBreakpointsEverywhere"            : true,
+    "debug.openDebug"                             : "neverOpen",
+    "debug.javascript.autoAttachFilter"           : "onlyWithFlag",
+
+    "files.autoSave"                              : "off",
+    "files.autoSaveDelay"                         : 180000,
+    "files.trimTrailingWhitespace"                : true,
+    "files.defaultLanguage"                       : "javascript",
+    "files.restoreUndoStack"                      : false,
+    "files.insertFinalNewline"                    : true,
+
+    "git.autoRepositoryDetection"                 : false,
+    "git.detectSubmodules"                        : false,
+    "git.ignoreSubmodules": true,
+    "git.showActionButton"                        : { "commit": false, "publish": false, "sync": false },
+    "gitlens.keymap"                              : "alternate",
+    "gitlens.codeLens.enabled"                    : false,
+    "gitlens.currentLine.enabled"                 : false,
+    "gitlens.hovers.currentLine.over"             : "line",
+    "gitlens.hovers.enabled"                      : false,
+    "gitlens.views.repositories.files.layout"     : "list",
+    "gitlens.statusBar.alignment"                 : "left",
+    "gitlens.remotes"                             : [{ "domain": "arb.ahgora.com.br", "type": "GitLab" }],
+    "gitlens.hovers.autolinks.enabled"            : true,
+    "gitlens.autolinks"                           : [{ "prefix": "DSW-", "url": "https://xxx.atlassian.net/browse/DSW-<num>" }],
+
+    "terminal.integrated.cursorStyle"             : "line",
+    "terminal.integrated.tabs.enabled"            : false,
+    "terminal.integrated.rightClickBehavior"      : "default",
+    "terminal.integrated.enableMultiLinePasteWarning": false,
+
+    // OTHERS
+    "update.mode"                                 : "manual",
+    "extensions.ignoreRecommendations"            : true,
+    "breadcrumbs.enabled"                         : false,
+    "merge-conflict.diffViewPosition"             : "Below",
+    "diffEditor.wordWrap"                         : "off",
+    "javascript.updateImportsOnFileMove.enabled"  : "never",
+    "javascript.preferences.quoteStyle"           : "single",
+    "js/ts.implicitProjectConfig.checkJs"         : false,
+    "scm.diffDecorationsGutterVisibility"         : "hover",
+    "intelephense.diagnostics.undefinedTypes"     : false,
+    "security.workspace.trust.untrustedFiles"     : "open",
+    "livePreview.autoRefreshPreview"              : "On Changes to Saved Files",
+    "typescript.tsserver.log"                     : "off",
+    "eslint.enable"                               : false,
+    "cSpell.spellCheckOnlyWorkspaceFiles"         : true,
+    "markdown.extension.syntax.decorations"       : false,
+    "fracturedjsonvsc.MaxInlineLength"            : 120,
+    "browse-lite.chromeExecutable"                : "google-chrome",
+    "mochaExplorer.env"                           : {"NODE_NO_WARNINGS": "1"},
+    "mochaExplorer.nodeArgv"                      : ["--experimental-fetch"],
+    "vscodemacros.macroFilePath"                  : "/home/xxx/dev/projects/utils/src/macros.cjs",
+    // "foldOnOpen.targets": ["AllBlockComments"],
+    // "editor.definitionLinkOpensInPeek": true,
+    // "editor.stablePeek"                        : true,
+
+    "[markdown]": {
+        "editor.formatOnSave": true,
+        "editor.wordWrap": "off",
+        "editor.occurrencesHighlight": false,
+        "editor.renderLineHighlight": "none",
+        "editor.defaultFormatter": "darkriszty.markdown-table-prettify",
+    },
+
+    "[shellscript]": {
+        "editor.matchBrackets": "never",
+    },
+
+    "[json]": {
+        "editor.defaultFormatter": "vscode.json-language-features"
+    },
+
+    "[css]": {
+        "editor.defaultFormatter": "junstyle.css-formatter"
+    },
+
+    "workbench.colorCustomizations": {
+        "editor.wordHighlightBackground": "#0066ff2a",
+
+        // make PEEK VIEW lok just like regular code
+        "peekView.border": "#0066ff2a",
+        "peekViewEditor.background": "#ffffff",
+        "peekViewEditor.matchHighlightBackground": "#ffffff",
+        "peekViewEditor.matchHighlightBorder": "#ffffff",
+        "peekViewResult.background": "#ffffff",
+        "peekViewResult.selectionBackground": "#ffffff",
+        "peekViewResult.matchHighlightBackground": "#ffffff",
+        "peekViewTitle.background": "#ffffff",
+        // "editorError.foreground": "#ffffff"
+    },
+
+    "gitlens.menus": {
+        "editor"        : {"blame": false, "clipboard": true, "compare": true, "details": false, "history": false, "remote": false},
+        "editorTab"     : {"clipboard": true, "compare": true, "history": true, "remote": true},
+        "explorer"      : {"clipboard": true, "compare": true, "history": true, "remote": true},
+        "scmGroup"      : {"compare": true, "openClose": true, "stash": true, "stashInline": true},
+        "scmItem"       : {"clipboard": true, "compare": true, "history": true, "remote": true, "stash": true},
+        "editorGroup"   : false,
+    },
+
+    "commands.commands": {
+        "forceMarkdown"  : { "command": "commands.setEditorLanguage", "args": "markdown" },
+        "forceJavascript": { "command": "commands.setEditorLanguage", "args": "javascript" },
+    },
+
+    "macros.list": {
+        "touchSave"      : ["workbench.action.files.save", "workbench.action.files.saveAll"],
+        "downAndOpen"    : ["list.focusDown", "filesExplorer.openFilePreserveFocus"], // "list.selectAndPreserveFocus"
+        "upAndOpen"      : ["list.focusUp", "filesExplorer.openFilePreserveFocus"], // "list.selectAndPreserveFocus"
+        "deepGoTo"       : ["workbench.action.splitEditor", "editor.action.revealDefinition", "editor.action.revealDefinition", "editor.action.revealDefinition", "workbench.action.closeOtherEditors"],
+        "peekTest"       : ["editor.action.peekDefinition", "list.focusLast", "list.expand", "list.focusLast"],
+    },
+    // {
+    //     "key": "shift+down",
+    //     "command": "list.expandSelectionDown",
+    //     "when": "listFocus && listSupportsMultiselect && !inputFocus"
+    //   }
+
+    // {
+    //     "key": "ctrl+shift+f10",
+    //     "command": "editor.action.peekDefinition",
+    //     "when": "editorHasDefinitionProvider && editorTextFocus && !inReferenceSearchEditor && !isInEmbeddedEditor"
+    //   }
+
+
+    //#region UI
+    "customizeUI.stylesheet": {
+        "div.monaco-split-view2.horizontal.separator-border div.title-actions": "display: none !important;",                                        // Hide title actions in Zen-mode
+        ".monaco-workbench .part.editor>.content .editor-group-container>.title>.label-container": "display: none !important;",                     // Hide File and title actions bar
+        "div.monaco-split-view2.horizontal.separator-border > div.split-view-container > div:nth-child(2) > div > div": "top: 25%; height: 50%",    // Center vertically the text editor and reduce its height
+
+        "[title='Open Changes']": "display: none !important;",
+        "[title^='Split Editor Right']": "display: none !important;",
+
+        ".monaco-list-row:hover:not(.selected):not(.focused)": "background-color: #ffffff !important",
+
+        // vertical center
+        ".fullscreen .scroll-decoration": "display: none !important",
+        ".monaco-split-view2.horizontal.separator-border": "--separator-border: #ffffff !important",
+        ".fullscreen": "top: 300px !important"
+    },
+
+    // add gray background to code blocks in markdown
+    "highlight.maxMatches": 1250,
+    "highlight.regexes": {
+          "(```.+?```)": {
+            "regexFlags": "gs",
+            "decorations": [{
+              "backgroundColor": "rgba(0, 0, 0, 0.03)",
+              "isWholeLine": true,
+            }],
+            "filterLanguageRegex": "markdown",
+            "filterFileRegex": ".*\\.md"
+          },
+
+        "(\\|)": {
+            "filterLanguageRegex": "[markdown|javascript]",
+            "decorations": [{
+                "color": "rgba(0, 0, 0, 0.1)"
+            }]
+        }
+    },
+
+    "copyCodeBlock.formats": [
+        {
+            "formatName": "default",
+            "codeBlockHeaderFormat": "${fullPath}:${topLineNumber}${EOL}",
+            "codeBlockFooterFormat": "",
+            "codeLineFormat": "${LINENUMBER}: ${CODE}${EOL}",
+            "multipleSelectionCreateMultipleCodeBlocks": false,
+            "multipleSelectionsBoundalyMarkerFormat": "---${EOL}",
+            "forcePathSeparatorSlash": false,
+            "forceSpaceIndent": false
+        },
+        {
+            "formatName": "markdown",
+            "codeBlockHeaderFormat": "${fullPath}:${topLineNumber}${EOL}```${EOL}",
+            "codeBlockFooterFormat": "```${EOL}",
+            "codeLineFormat": "${CODE}${EOL}",
+            "multipleSelectionCreateMultipleCodeBlocks": false,
+            "multipleSelectionsBoundalyMarkerFormat": "---${EOL}",
+            "forcePathSeparatorSlash": true,
+            "forceSpaceIndent": true
+        }
+    ],
+
+    "editor.tokenColorCustomizations": {
+        "[Minimalist (Purple Object Keys)]": {
+            "textMateRules": [
+                {
+                    // Everything that is or will become a string as green (testing)
+                    "name": "Template literals",
+                    "scope": "meta.template.expression.js entity.name.function.js",
+                    "settings": {
+                        "foreground": "#089c11",
+                        "fontStyle": "",
+                    }
+                },
+            ]
+        }
+    },
+    //#endregion
+
+    "files.exclude": {
+        "**/package-lock.json": true,
+        "**/.git": true,
+    },
+    "search.exclude": {
+        "**/node_modules": true,
+    },
+    "redhat.telemetry.enabled": false,
+    "cSpell.enabled": false,
+
+    "mdtableeditor.isHighlighterEnabled": false,
+    "mdtableeditor.commandViews": {
+        "toolbar": [
+            "MdTableEditor.columnSelectEmpty",
+            "MdTableEditor.insertBottom",
+            "MdTableEditor.insertLeft",
+            "MdTableEditor.insertRight",
+            "MdTableEditor.insertTop",
+            "MdTableEditor.moveBottom",
+            "MdTableEditor.moveLeft",
+            "MdTableEditor.moveRight",
+            "MdTableEditor.moveTop",
+            "MdTableEditor.removeColumn",
+            "MdTableEditor.removeRow",
+            "MdTableEditor.sortNumberAsc",
+            "MdTableEditor.sortNumberDesc",
+            "MdTableEditor.sortTextAsc.ignore",
+            "MdTableEditor.sortTextDesc.ignore"
+        ],
+        "context": [
+            "MdTableEditor.fillCells",
+            "MdTableEditor.insertTop",
+            "MdTableEditor.insertBottom",
+            "MdTableEditor.insertLeft",
+            "MdTableEditor.insertRight",
+            "MdTableEditor.removeColumn",
+            "MdTableEditor.removeRow",
+            "MdTableEditor.columnSelectEmpty",
+            "MdTableEditor.sortNumberAsc",
+            "MdTableEditor.sortNumberDesc",
+            "MdTableEditor.sortTextAsc.ignore",
+            "MdTableEditor.sortTextDesc.ignore"
+        ]
+    },
+}

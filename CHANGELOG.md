@@ -1,5 +1,13 @@
 # Change Log
 
+## [1.4.0] 2022-11-05
+- Recommended Extensions
+- greying out some bash punctuation
+- sharing my settings.json
+- greying out JsDocs annotations/punctuation
+- bolding "exports"
+- unbolding function calls
+
 ## [1.3.1] 2022-04-26
 - fix: H3 as black, not H2
 

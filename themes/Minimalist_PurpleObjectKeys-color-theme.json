@@ -77,10 +77,31 @@
 			}
 		},
 		{
-			"name": "Object Key",
-			"scope": "meta.object-literal.key.js,string.json.comments",
+			"name": "JsDocs annotations/punctuation",
+			"scope": "storage.type.class.jsdoc, entity.name.type.instance.jsdoc, punctuation.definition.bracket.curly.end.jsdoc",
 			"settings": {
-				"foreground": "#8250DF",
+				"foreground": "#C0C0C0",
+			}
+		},
+		{
+			"name": "Export",
+			"scope": "keyword.control.export.js",
+			"settings": {
+				"fontStyle": "italic bold",
+			}
+		},
+		{
+			"name": "Function call",
+			"scope": "meta.function-call.js entity.name.function.js",
+			"settings": {
+				"foreground": "#3B5BB5", "fontStyle": ""
+			}
+		},
+		{
+			"name": "Bash punctuation",
+			"scope": "punctuation.definition.arguments.shell, punctuation.definition.group.shell",
+			"settings": {
+				"foreground": "#dfdfdf"
 			}
 		},
 		{
@@ -162,6 +183,19 @@
 			"settings": {
 				"fontStyle": "italic"
 			}
-		}
+		},
+		/*************************** VARIATION: PURPLE KEYS *****************************************/
+		{
+			"name": "Object/Json Key",
+			"scope": [
+				"meta.object-literal.key.js",
+				"string.json.comments",
+				"meta.object-literal.key.js string",
+				"support.type.property-name.json"	 // json keys
+			],
+			"settings": {
+				"foreground": "#8250DF",
+			}
+		},
 	]
 }
