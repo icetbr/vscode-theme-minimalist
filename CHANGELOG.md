@@ -1,5 +1,12 @@
 # Change Log
 
+## [1.4.1] 2025-02-11
+- purple theme
+  - 10% lighter (red) keywords
+  - formatted code with jsonc
+  - make peek view look like a regular editor
+- fixes wordHighlightBackground
+
 ## [1.4.0] 2022-11-05
 - Recommended Extensions
 - greying out some bash punctuation

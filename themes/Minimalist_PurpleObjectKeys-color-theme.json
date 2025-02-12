@@ -9,193 +9,156 @@
 	 *  light-gray    #C0C0C0 comments
 	 *  lighter-gray  #dfdfdf close to hidden, markdown pontuation
 	 *  green         #089C11 strings
-	 *  red           #c82829 keywords
+	 *  red           #db4949 keywords // old: #c82829
 	 *  purple        #8250DF object keys
 	 *  orange        #f5871f variables (this in JS)
 	 *  dark-blue     #3B5BB5 entities
 	 *  dark-blue2    #365f91 markdown headings (can't decide on a blue tone)
 	 */
 	"colors": {
-		"editor.foreground": "#4d4d4c",
-		"editorCursor.foreground": "#4d4d4c",
-		"editor.wordHighlightBackground": "#C3DCFF",
-		"list.activeSelectionBackground": "#C3DCFF",
-		"list.activeSelectionForeground": "#4d4d4c",
+		"editor.foreground"                      : "#4d4d4c"  ,
+		"editorCursor.foreground"                : "#4d4d4c"  ,
+		"list.activeSelectionBackground"         : "#C3DCFF"  ,
+		"list.activeSelectionForeground"         : "#4d4d4c"  ,
+		"editor.wordHighlightBackground"         : "#0066ff2a",
+		// make peek view look like a regular editor
+		"peekView.border"                        : "#0066ff2a",
+		"peekViewEditor.background"              : "#ffffff"  ,
+		"peekViewEditor.matchHighlightBackground": "#ffffff"  ,
+		"peekViewEditor.matchHighlightBorder"    : "#ffffff"  ,
+		"peekViewResult.background"              : "#ffffff"  ,
+		"peekViewResult.selectionBackground"     : "#ffffff"  ,
+		"peekViewResult.matchHighlightBackground": "#ffffff"  ,
+		"peekViewTitle.background"               : "#ffffff"
 	},
 	"tokenColors": [
 		{
 			"name": "Comment",
 			"scope": "comment",
-			"settings": {
-				"foreground": "#C0C0C0"
-			}
+			"settings": {"foreground": "#C0C0C0"}
 		},
 		{
 			"name": "String",
 			"scope": "string",
-			"settings": {
-				"foreground": "#089C11"
-			}
+			"settings": {"foreground": "#089C11"}
 		},
 		{
 			"name": "Main language constructs",
-			"scope": [
-				"keyword",
-				"storage.type",
-				"entity.name.tag"
-			],
-			"settings": {
-				"foreground": "#c82829"
-			}
+			"scope": ["keyword", "storage.type", "entity.name.tag"],
+			"settings": {"foreground": "#db4949"}
 		},
 		{
 			"name": "Variable",
 			"scope": "variable.language",
-			"settings": {
-				"foreground": "#f5871f"
-			}
+			"settings": {"foreground": "#f5871f"}
 		},
 		{
 			"name": "User defined/libs constructs",
 			"scope": [
-				"entity",
-				"meta.tag.inline.any.html",
-				"meta.tag.block.any.html",
+				"entity"                   ,
+				"meta.tag.inline.any.html" ,
+				"meta.tag.block.any.html"  ,
 				"constant.other.object.key"
 			],
-			"settings": {
-				"fontStyle": "",
-				"foreground": "#3B5BB5"
-			}
+			"settings": {"fontStyle": "", "foreground": "#3B5BB5"}
 		},
 		{
 			"name": "Function JS",
 			"scope": "entity.name.function.js",
-			"settings": {
-				"fontStyle": "bold",
-				"foreground": "#3B5BB5"
-			}
+			"settings": {"fontStyle": "bold", "foreground": "#3B5BB5"}
 		},
 		{
 			"name": "JsDocs annotations/punctuation",
 			"scope": "storage.type.class.jsdoc, entity.name.type.instance.jsdoc, punctuation.definition.bracket.curly.end.jsdoc",
-			"settings": {
-				"foreground": "#C0C0C0",
-			}
+			"settings": {"foreground": "#C0C0C0"}
 		},
 		{
 			"name": "Export",
 			"scope": "keyword.control.export.js",
-			"settings": {
-				"fontStyle": "italic bold",
-			}
+			"settings": {"fontStyle": "italic bold"}
 		},
 		{
 			"name": "Function call",
 			"scope": "meta.function-call.js entity.name.function.js",
-			"settings": {
-				"foreground": "#3B5BB5", "fontStyle": ""
-			}
+			"settings": {"foreground": "#3B5BB5", "fontStyle": ""}
+		},
+		{
+			"name": "Function call inside Template Literal",
+			"scope": "meta.template.expression.js entity.name.function.js",
+			"settings": {"foreground": "#089c11", "fontStyle": ""}
 		},
 		{
 			"name": "Bash punctuation",
 			"scope": "punctuation.definition.arguments.shell, punctuation.definition.group.shell",
-			"settings": {
-				"foreground": "#dfdfdf"
-			}
+			"settings": {"foreground": "#dfdfdf"}
 		},
 		{
 			"name": "HTML attributes",
 			"scope": [
-				"entity.other.attribute-name.html",
+				"entity.other.attribute-name.html"   ,
 				"entity.other.attribute-name.id.html",
-				"meta.tag.inline.any.html",
-				"meta.tag.block.any.html",
+				"meta.tag.inline.any.html"           ,
+				"meta.tag.block.any.html"            ,
 				"keyword.other.unit.css"
 			],
-			"settings": {
-				"fontStyle": "",
-				"foreground": "#4d4d4c"
-			}
+			"settings": {"fontStyle": "", "foreground": "#4d4d4c"}
 		},
-
 		/*************************** MARKDOWN *****************************************/
 		{
 			"name": "Markdown syntax decoration",
 			"scope": [
-				"constant.other.reference.link.markdown",
-				"markup.underline.link.image.markdown",
-				"markup.underline.link.markdown",
-				"punctuation.definition.string.begin.markdown",
-				"punctuation.definition.string.end.markdown",
+				"constant.other.reference.link.markdown"        ,
+				"markup.underline.link.image.markdown"          ,
+				"markup.underline.link.markdown"                ,
+				"punctuation.definition.string.begin.markdown"  ,
+				"punctuation.definition.string.end.markdown"    ,
 				"punctuation.definition.constant.begin.markdown",
-				"punctuation.definition.constant.end.markdown",
-				"punctuation.definition.metadata.markdown",
-				"punctuation.definition.markdown",
+				"punctuation.definition.constant.end.markdown"  ,
+				"punctuation.definition.metadata.markdown"      ,
+				"punctuation.definition.markdown"               ,
 				"fenced_code.block.language.markdown"
 			],
-			"settings": {
-				"foreground": "#C0C0C0",
-				"fontStyle": ""
-			}
+			"settings": {"foreground": "#C0C0C0", "fontStyle": ""}
 		},
 		{
 			"name": "Markdown link decoration",
 			"scope": "string.other.link.description.markdown, string.other.link.title.markdown",
-			"settings": {
-				"foreground": "#3B5BB5",
-			}
+			"settings": {"foreground": "#3B5BB5"}
 		},
 		{
 			"name": "Markdown headings",
 			"scope": "markup.heading.markdown, entity.name.section.markdown",
-			"settings": {
-				"foreground": "#365f91",
-				"fontStyle": "bold"
-			}
+			"settings": {"foreground": "#365f91", "fontStyle": "bold"}
 		},
 		{
 			"name": "Markdown h3 heading",
 			"scope": [
 				"heading.3.markdown punctuation.definition.heading.markdown",
-				"heading.3.markdown entity.name.section.markdown",
+				"heading.3.markdown entity.name.section.markdown"           ,
 				"heading.3.markdown string.other.link.title.markdown"
 			],
-			"settings": {
-				"foreground": "#4D4D4C",
-			}
+			"settings": {"foreground": "#4D4D4C"}
 		},
 		{
 			"name": "Markdown inline code",
 			"scope": "markup.inline.raw.string.markdown",
-			"settings": {
-				"foreground": "#089C11"
-			}
+			"settings": {"foreground": "#089C11"}
 		},
-		{
-			"scope": "markup.bold.markdown",
-			"settings": {
-				"fontStyle": "bold"
-			}
-		},
+		{ "scope": "markup.bold.markdown", "settings": {"fontStyle": "bold"} },
 		{
 			"scope": "markup.italic.markdown",
-			"settings": {
-				"fontStyle": "italic"
-			}
+			"settings": {"fontStyle": "italic"}
 		},
 		/*************************** VARIATION: PURPLE KEYS *****************************************/
 		{
 			"name": "Object/Json Key",
 			"scope": [
-				"meta.object-literal.key.js",
-				"string.json.comments",
+				"meta.object-literal.key.js"       ,
+				"string.json.comments"             ,
 				"meta.object-literal.key.js string",
-				"support.type.property-name.json"	 // json keys
+				"support.type.property-name.json"     // json keys
 			],
-			"settings": {
-				"foreground": "#8250DF",
-			}
-		},
+			"settings": {"foreground": "#8250DF"}
+		}
 	]
 }

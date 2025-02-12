@@ -102,22 +102,8 @@ Example to make code blocks in markdown to look the same as when rendered as HTM
   ```
 
 
-### [Customize UI](https://marketplace.visualstudio.com/items?itemName=iocave.customize-ui)
-
-```js
-    "customizeUI.stylesheet": {
-        "div.monaco-split-view2.horizontal.separator-border div.title-actions": "display: none !important;",                                        // Hide title actions in Zen-mode
-        ".monaco-workbench .part.editor>.content .editor-group-container>.title>.label-container": "display: none !important;",                     // Hide File and title actions bar
-
-        "[title='Open Changes']": "display: none !important;",
-        "[title^='Split Editor Right']": "display: none !important;",
-
-        ".monaco-list-row:hover:not(.selected):not(.focused)": "background-color: #ffffff !important",
-
-        ".fullscreen .scroll-decoration": "display: none !important",
-        ".monaco-split-view2.horizontal.separator-border": "--separator-border: #ffffff !important",
-    },
-```
+### [Customize UI]
+- no longer working
 
 ### Others
 - [JSDoc Markdown highlighting](https://marketplace.visualstudio.com/items?itemName=bierner.jsdoc-markdown-highlighting)
